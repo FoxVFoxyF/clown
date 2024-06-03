@@ -4,7 +4,9 @@
 > [!IMPORTANT]
 > you will need to setup your pc...i know i know ;<
 
-## frist install [nodejs](https://nodejs.org/en) ```and python, for example i use 3.11 from ms store```
+## frist install [nodejs](https://nodejs.org/en) 
+```and python, for example i use 3.11 from ms store```
+
 after this type in cmd 2 things..
 ```py
 pip install websocket-client requests
