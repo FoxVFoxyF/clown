@@ -32,12 +32,16 @@ authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 
-## now lets edit last file... ```clown_0.2``` 
+## now lets edit last file ```clown_0.2``` 
 
 **frist make a blow job and jk** ```try to find(it will be high)``` 
 
 token = "YOUR TOKEN HERE" ```AND```
 channel_id = "CHANNEL ID"
+
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/89bb8580-1c5d-45fe-8f3c-0bffd0fe8ec0)
+***here are tutorial how to get discord token***
+
 
 
 
