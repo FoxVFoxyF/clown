@@ -18,15 +18,15 @@ next we have in file ```(characterai_server)```
 
 authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
-***here are tutorial how to get acc token***
+***here are tutorial how to get token***
 - go to ➡️ https://old.character.ai
 - ctrl + shift + i
-- and js copy a token
+- and js copy a token like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
 
 
 
 ***and here how to get character id***
-- go on chat with ai and copy same like me 
+- go on chat with ai and copy marked text
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
 char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
