@@ -12,7 +12,7 @@ after installation paste to cmd 2 things..
 pip install websocket-client requests
 ```
 ```py
-npm install express body-parser node-character.ai
+npm install express body-parser node_characterai
 ```
 ## next lets edit file ```(characterai_server)``` shall we?
 
