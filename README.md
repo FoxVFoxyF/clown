@@ -53,10 +53,17 @@ channel_id = "CHANNEL ID"
 **to get channel id** just press right on channel and click ```copy channel id```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/d6632b7b-afe0-4e54-91a9-63a2f652e2e2)
 
+# should work now(dont test) if you don't have any additional packages, please let me know (sorry..)
 
-
-
-
+> [!NOTE]
+> here are info how to configurate (clown file)
+```py
+token = "jaja czarnucha"
+channel_id = "2137"
+username_to_ignore = 'bigwhiteguy' # your @
+check_for_prefix = True # check that selected prefix will be checked
+prefix = "." # it will check if the message starts with a prefix like .hello!, if not you are then ure ignored
+```
 
 
 
