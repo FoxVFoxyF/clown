@@ -31,7 +31,8 @@ authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
 char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
-> now lets edit last file... ```clown_0.2``` 
+
+now lets edit last file... ```clown_0.2``` 
 
 **frist make a blow job and jk** ```try to find``` 
 
