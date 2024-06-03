@@ -23,7 +23,7 @@ authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 - ctrl + shift + i
 - and js copy a token like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
-**remember to log in on old.character to see token!!**
+**remember to login on old.character to see token!!**
 
 
 
