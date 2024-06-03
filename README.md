@@ -46,7 +46,8 @@ channel_id = "CHANNEL ID"
 - go where you can type
 - press ctrl + shift + i and type something 
 - and copy from authorization your token ```yup my alt got muted cuz ai was ✨retarded✨ ```
-![image](https://github.com/FoxVFoxyF/clown/assets/121633580/de5c1220-1457-42e7-8b35-2ec5f5362d15)
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649d395b-1cff-4857-94b3-6e4d8e2c1e7c)
+
 
 
 **to get channel id just press right on channel and** ```copy channel id```
