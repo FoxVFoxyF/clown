@@ -33,7 +33,7 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 > now lets edit last file... ```clown_0.2``` 
 
-**frist make a blow job and jk hshs, ```try to find``` 
+**frist make a blow job and jk hshs,** ```try to find``` 
 
 token = "YOUR TOKEN HERE"
 channel_id = "CHANNEL ID"
