@@ -4,4 +4,4 @@ the code is not obfuscated or complicated at all, so if you are afraid of a viru
 > [!IMPORTANT]
 > you will need to download the following things ...i know i know ;<
 
-> [nodejs](https://nodejs.org/en).
+> frist you need a [nodejs](https://nodejs.org/en).
