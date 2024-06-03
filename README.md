@@ -41,7 +41,10 @@ channel_id = "CHANNEL ID"
 
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/89bb8580-1c5d-45fe-8f3c-0bffd0fe8ec0)
 ***here are tutorial how to get discord token***
-- open discord in web(dont close always keep open...sorry) and in advanced setting(bottom) enable developer mode
+- open discord in web(dont close always keep open...sorry) and enable developer mode just like me
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
+
+
 
 
 
