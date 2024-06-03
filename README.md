@@ -16,5 +16,6 @@ npm install node-character.ai
 ```
 next we have in file ```(characterai_server)``` authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
-***here are tutorial how to get token***
+***here are tutorial how to acc token***
 
+***and here how to get character id***
