@@ -5,10 +5,10 @@ the code is not obfuscated or complicated allat, so if you are afraid of a virus
 > you will need to download the following things ...i know i know ;<
 
 > frist install [nodejs](https://nodejs.org/en)
-next type in cmd 2 things..
+> next type in cmd 2 things..
 ```py
 pip install websocket-client requests
 ```
 ```py
-npm install 
+npm install node-character.ai
 ```
