@@ -36,5 +36,5 @@ now lets edit last file... ```clown_0.2```
 
 **frist make a blow job and jk** ```try to find``` 
 
-token = "YOUR TOKEN HERE"
+token = "YOUR TOKEN HERE" ```AND```
 channel_id = "CHANNEL ID"
