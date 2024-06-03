@@ -27,6 +27,7 @@ authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
 
 
+
 ***and here how to get character id***
 - go on chat with ai and copy marked text
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
