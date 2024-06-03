@@ -2,7 +2,7 @@
 clown allows you to connect character ai to discord on ALT ACC(NOT bot acc) program is really simple and my first.
 The code isnt obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to [gpt4/3.5](https://chatgpt.com)
 > [!IMPORTANT]
-> you will need to download the following things ...i know i know ;<
+> you will need to setup your pc...i know i know ;<
 
 > frist install [nodejs](https://nodejs.org/en)
 
@@ -14,4 +14,5 @@ pip install websocket-client requests
 ```py
 npm install node-character.ai
 ```
+> next we have in file(characterai_server) await characterAI.authenticateWithToken("YOUR TOKEN HERE");
 and run my file (runner)
