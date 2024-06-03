@@ -16,7 +16,7 @@ npm install node-character.ai express body-parser
 ```
 ## next lets edit file ```(characterai_server)``` shall we?
 
-```try to find```
+```try to find inside```
 authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
 ***here are tutorial how to get token***
