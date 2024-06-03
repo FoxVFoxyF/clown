@@ -14,7 +14,8 @@ pip install websocket-client requests
 ```py
 npm install node-character.ai
 ```
-next we have in file ```(characterai_server)``` authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
+next we have in file ```(characterai_server)```
+authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
 ***here are tutorial how to get acc token***
 - go to ➡️ https://old.character.ai
