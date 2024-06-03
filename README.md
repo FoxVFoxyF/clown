@@ -1,6 +1,6 @@
 # clown
 clown allows you to connect character ai to discord via ALT ACC(not bot acc) program is really simple and my first.
-The code is not obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to gpt4/3.5
+The code is not obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to [gpt4/3.5](https://chatgpt.com)
 > [!IMPORTANT]
 > you will need to download the following things ...i know i know ;<
 
