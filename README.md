@@ -6,6 +6,6 @@ the code is not obfuscated or complicated at all, so if you are afraid of a viru
 
 > frist you need a [nodejs](https://nodejs.org/en).
 next type in cmd..
-```python
+```py
 pip install websocket-client
 ```
