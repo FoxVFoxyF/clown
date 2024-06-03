@@ -59,7 +59,7 @@ channel_id = "CHANNEL ID"
 > [!NOTE]
 > here are info how to configurate (clown file)
 ```py
-token = "jaja czarnucha" # u should now now
+token = "jaja czarnucha" # u should know now
 channel_id = "2137" # same ⬆️
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
