@@ -5,3 +5,7 @@ the code is not obfuscated or complicated at all, so if you are afraid of a viru
 > you will need to download the following things ...i know i know ;<
 
 > frist you need a [nodejs](https://nodejs.org/en).
+> next type in cmd..
+```cpp
+pip install websocket-client
+```
