@@ -7,9 +7,11 @@ The code is not obfuscated or complicated allat, so if you are afraid of a virus
 > frist install [nodejs](https://nodejs.org/en)
 
 next type in cmd 2 things..
+```for example i use python 3.11 from ms store```
 ```py
 pip install websocket-client requests
 ```
+
 ```py
 npm install node-character.ai
 ```
