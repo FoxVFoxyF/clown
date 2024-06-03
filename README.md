@@ -52,6 +52,7 @@ channel_id = "CHANNEL ID"
 
 **to get channel id** just press right on channel and click ```copy channel id```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/d6632b7b-afe0-4e54-91a9-63a2f652e2e2)
+```channel id is place where ai will be```
 
 ## Cloner should work(dont test, read note!)
 
