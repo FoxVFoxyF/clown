@@ -25,3 +25,6 @@ next we have in file ```(characterai_server)``` authenticateWithToken("YOUR TOKE
 
 
 ***and here how to get character id***
+- go on chat with ai and copy same like me 
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
+char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
