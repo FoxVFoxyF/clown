@@ -17,9 +17,9 @@ npm install node-character.ai
 next we have in file ```(characterai_server)``` authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
 ***here are tutorial how to get acc token***
-1.go to ➡️ https://old.character.ai
-2.ctrl + shift + i
-3.and js copy a token
+- go to ➡️ https://old.character.ai
+- ctrl + shift + i
+- and js copy a token
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
 
 
