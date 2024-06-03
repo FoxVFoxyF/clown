@@ -45,7 +45,7 @@ channel_id = "CHANNEL ID"
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
 - go where you can type
 - press ctrl + shift + i and type something 
-- and copy from authorization your token
+- and copy from authorization your token ```yup my alt got muted cuz he was ✨retarded✨ ```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/de5c1220-1457-42e7-8b35-2ec5f5362d15)
 
 
