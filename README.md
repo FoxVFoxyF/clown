@@ -64,7 +64,7 @@ username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
 prefix = "." # if user start msg like .hello! program will send this to c.ai but if you type hello you'll be ignored
 ```
-
+RUN VIA runner.bat
 
 
 
