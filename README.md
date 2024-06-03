@@ -4,7 +4,7 @@
 > [!IMPORTANT]
 > you will need to setup your pc...i know i know ;<
 
-> frist install [nodejs](https://nodejs.org/en)
+## frist install [nodejs](https://nodejs.org/en)
 
 next type in cmd 2 things..
 ```for example i use python 3.11 from ms store```
