@@ -62,7 +62,7 @@ token = "jaja czarnucha"
 channel_id = "2137"
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # it will check if the message starts with a prefix like .hello!, if you type hello you'll be ignored
+prefix = "." # if user start like .hello! program will send this to c.ai but if you type hello you'll be ignored
 ```
 
 
