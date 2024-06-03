@@ -32,9 +32,9 @@ authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 
-now lets edit last file... ```clown_0.2``` 
+## now lets edit last file... ```clown_0.2``` 
 
-**frist make a blow job and jk** ```try to find``` 
+**frist make a blow job and jk** ```try to find(it will be high)``` 
 
 token = "YOUR TOKEN HERE" ```AND```
 channel_id = "CHANNEL ID"
