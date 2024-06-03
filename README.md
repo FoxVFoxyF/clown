@@ -7,7 +7,7 @@
 ## frist install [nodejs](https://nodejs.org/en) 
 ```and python, for example i use 3.11 from ms store```
 
-after this type in cmd 2 things..
+after installation paste to cmd 2 things..
 ```py
 pip install websocket-client requests
 ```
