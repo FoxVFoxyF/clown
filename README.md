@@ -14,8 +14,9 @@ pip install websocket-client requests
 ```py
 npm install node-character.ai
 ```
-next we have in file ```(characterai_server)```
+frist lets edit file: ```(characterai_server)``` shall we?
 
+try to find
 authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
 ***here are tutorial how to get token***
