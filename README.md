@@ -14,3 +14,4 @@ pip install websocket-client requests
 ```py
 npm install node-character.ai
 ```
+and run my file (runner)
