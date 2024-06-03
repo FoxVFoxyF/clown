@@ -38,3 +38,8 @@ now lets edit last file... ```clown_0.2```
 
 token = "YOUR TOKEN HERE" ```AND```
 channel_id = "CHANNEL ID"
+
+
+
+
+
