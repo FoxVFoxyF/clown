@@ -17,7 +17,7 @@ npm install express body-parser node_characterai chalk
 ## next lets edit ```(config.json)``` shall we?
 
 ```try to find inside file:```
-dc_token ```AND``` cai_token
+dc_token ```AND``` cai_token ```AND``` channel_id ```AND``` characterId
 
 ***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
