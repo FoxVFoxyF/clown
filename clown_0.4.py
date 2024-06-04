@@ -6,14 +6,16 @@ import threading
 import time
 import requests
 
-# Configuration
-token = "YOUR TOKEN HERE"
-channel_id = "CHANNEL ID"
-username_to_ignore = 'bigwhiteguy' # your @ bot
-check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
-print_user_messages = False
-print_ai_messages = True
+with open('config.json') as config_file:
+    config = json.load(config_file)
+
+token = config["dc_token"]
+channel_id = config["channel_id"]
+username_to_ignore = config['username_to_ignore']
+check_for_prefix = config['check_for_prefix']
+prefix = config['prefix']
+print_user_messages = config['print_user_messages']
+print_ai_messages = config['print_ai_messages']
 
 
 def send_json_request(ws, request):
