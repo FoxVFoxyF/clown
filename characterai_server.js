@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const CharacterAI = require('node_characterai');
 const characterAI = new CharacterAI();
+const chalk = import('chalk');
 
 const app = express();
 const port = 3000;
@@ -27,15 +28,16 @@ app.get('/send-message', (req, res) => {
 let chat;
 
 (async () => {
+  const chalk = await import('chalk');
   try {
     await characterAI.authenticateWithToken("YOUR TOKEN HERE");
-    console.log("Authenticated with CharacterAI");
+    console.log(chalk.default.blueBright('Authenticated with CharacterAI'));
     const characterId = "YOUR CHAR ID";
     chat = await characterAI.createOrContinueChat(characterId);
-    console.log("Chat initialized with character:", characterId);
-    console.log("keep this in background +");
+    console.log(chalk.default.greenBright("Chat initialized with character:", characterId));
+    console.log(chalk.default.magentaBright("keep this in background +"));
   } catch (error) {
-    console.error("Error during authentication:", error);
+    console.error(chalk.default.redBright("Error during authentication:", error));
   }
 })();
 
