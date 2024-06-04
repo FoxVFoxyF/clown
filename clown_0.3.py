@@ -1,4 +1,6 @@
 import websocket
+import colorama
+from colorama import Fore, Style
 import json
 import threading
 import time
@@ -9,7 +11,9 @@ token = "YOUR TOKEN HERE"
 channel_id = "CHANNEL ID"
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # if user start msg like .hello! program will send this to c.ai but if user type hello he will be ignored
+prefix = "." # if user start msg like .hello! program will send this to c.ai but if you type hello you'll be ignored
+print_user_messages = False
+print_ai_messages = True
 
 
 def send_json_request(ws, request):
@@ -44,7 +48,7 @@ ws.connect('wss://gateway.discord.gg/?v=6&encoding=json')
 event = receive_json_response(ws)
 
 if event:
-    print("connected :)")
+    print(Fore.MAGENTA + Style.BRIGHT + "connected :)" + Style.RESET_ALL)
 
     heartbeat_interval = event['d']['heartbeat_interval'] / 1000
     threading._start_new_thread(heartbeat, (heartbeat_interval, ws))
@@ -72,7 +76,10 @@ while True:
                 content = event['d']['content']
                 if username != username_to_ignore:
                     user_message = f"{content}"
-                    print(user_message)
+
+                    if print_user_messages:
+                        print(Fore.BLUE + Style.BRIGHT + "user" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + user_message + Style.RESET_ALL)
+
                     if not check_for_prefix or user_message.startswith(prefix):
                         user_message = remove_prefix(user_message, prefix)
                         
@@ -83,16 +90,18 @@ while True:
                         response = requests.post(url, headers=headers, json=data)
                         if response.status_code == 200:
                             assistant_message = response.json()['response']
-                            print("AI", assistant_message)
+                            if print_ai_messages:
+                                print(Fore.BLUE +  Style.BRIGHT + "AI" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + assistant_message + Style.RESET_ALL)
+
                             payload = {'content': assistant_message}
                             header = {'authorization': token}
                             r = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', data=payload, headers=header)
                         else:
-                            print("Failed to get response from CharacterAI server")
+                            print(Fore.RED + "Failed to get response from CharacterAI server" + Style.RESET_ALL)
     except KeyError:
         pass
     except Exception:
         pass
 
 else:
-    print("discord gateway, bad")
+    print(Fore.RED + Style.BRIGHT + "discord gateway, bad" + Style.RESET_ALL)
