@@ -11,7 +11,7 @@ token = "YOUR TOKEN HERE"
 channel_id = "CHANNEL ID"
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # example: if user send msg like .hello! program will send this to c.ai but if user type hello he will be ignored
+prefix = "." # example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
 print_user_messages = False
 print_ai_messages = True
 
