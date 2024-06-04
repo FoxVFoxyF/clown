@@ -41,9 +41,9 @@ channel_id = "CHANNEL ID"
 
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/89bb8580-1c5d-45fe-8f3c-0bffd0fe8ec0)
 ***here are tutorial how to get another token***
-- open discord in web(dont close always keep open...sorry) and enable developer mode just like me
+- open discord in web(dont close always keep open...sorry) and enable dev mode just like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
-- go where you can type
+- next go where you can type(i prefer dm)
 - press ctrl + shift + i and type something 
 - from messages/authorization take your token(idk how to explain, soo here are img)```yup my alt got muted cuz ai was ✨retarded✨ ```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649d395b-1cff-4857-94b3-6e4d8e2c1e7c)
@@ -59,8 +59,8 @@ channel_id = "CHANNEL ID"
 > [!NOTE]
 > here are info how to configurate (clown file)
 ```py
-token = "jaja czarnucha" # u should know now
-channel_id = "2137" # same ⬆️
+token = "jaja czarnucha" # we have this
+channel_id = "2137" # same 🔼
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
 prefix = "." # if user start msg like .hello! program will send this to c.ai but if user type hello he will be ignored
