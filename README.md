@@ -14,56 +14,50 @@ pip install websocket-client requests colorama
 ```py
 npm install express body-parser node_characterai chalk
 ```
-## next lets edit file ```(characterai_server)``` shall we?
+## next lets edit file ```(config.json)``` shall we?
 
 ```try to find inside file:```
-authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
+dc_token ```AND``` cai_token
 
-***here are tutorial how to get your token***
-- go to ➡️ https://old.character.ai
-- ctrl + shift + i
-- and js copy a token like me
-![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
-**remember to login on old.character to see token!!**
-
-***and here how to get character id***
-- go on chat with ai and copy marked text
-![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
-char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
-
-
-## now lets edit last file ```clown_0.2``` 
-
-**frist make a blow job and jk** ```try to find ⏬(it will be high)``` 
-
-token = "YOUR TOKEN HERE" ```AND```
-channel_id = "CHANNEL ID"
-
-![image](https://github.com/FoxVFoxyF/clown/assets/121633580/89bb8580-1c5d-45fe-8f3c-0bffd0fe8ec0)
-***here are tutorial how to get another token***
+***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
 - next go where you can type(i prefer dm)
 - press ctrl + shift + i and type something 
 - from messages/authorization take your token(idk how to explain, soo here are img)```yup my alt got muted cuz ai was ✨retarded✨ ```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649d395b-1cff-4857-94b3-6e4d8e2c1e7c)
-
-
-
+***to get cai_token***
+- go to ➡️ https://old.character.ai
+- ctrl + shift + i
+- and js copy a token like me
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
+**remember to login on old.character to see token!!**
 **to get channel id** just press right on channel and click ```copy channel id```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/d6632b7b-afe0-4e54-91a9-63a2f652e2e2)
 ```channel id is place where ai will be```
+***to get characterId***
+- go to chat with ai and copy marked text
+![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
+char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
-## Cloner should work(dont test, read note!)
+
+
+## read note before running bat file
 
 > [!NOTE]
 > here are info how to configurate (clown file)
-```py
-token = "jaja czarnucha" # we have this
-channel_id = "2137" # same 🔼
-username_to_ignore = 'bigwhiteguy' # your @ bot
-check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
+```js
+    "channel_id": "CHANNEL_ID"
+    "characterId": "YOUR_CHARACTER_ID"
+
+    "check_for_prefix": true ⬅️check that selected prefix will be checked
+    "prefix": ".", ⬅️example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
+    
+    "username_to_ignore": "big_sigma32" ⬅️your @ bot
+    "print_user_messages": false, ⬅️bool
+    "print_ai_messages": true, ⬅️bool
+    "dc_token": "YOUR_TOKEN_HERE",
+    "cai_token": "YOUR_TOKEN_HERE"
 ```
 RUN VIA runner.bat
 
