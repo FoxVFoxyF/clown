@@ -51,7 +51,7 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
     "check_for_prefix": true ⬅️check that selected prefix will be checked
     "prefix": ".", ⬅️example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
     
-    "username_to_ignore": "big_sigma32" ⬅️your @ bot MUST BEEEE
+    "username_to_ignore": "big_sigma32" ⬅️your @ bot
     "print_user_messages": false, ⬅️bool
     "print_ai_messages": true, ⬅️bool
     "dc_token": "YOUR_TOKEN_HERE",
