@@ -30,7 +30,8 @@ npm install express body-parser node_characterai chalk
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
 **remember to login on old.character to see token!!**
 
-### **to get channel id** just press right on channel and click ```copy channel id```
+### **to get channel id** 
+- just press right on channel and ```copy channel id```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/d6632b7b-afe0-4e54-91a9-63a2f652e2e2)
 ```channel id is place where ai will be```
 
