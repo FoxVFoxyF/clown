@@ -12,7 +12,7 @@ after installation paste to cmd 2 things..
 pip install websocket-client requests colorama
 ```
 ```py
-npm install express body-parser node_characterai
+npm install express body-parser node_characterai chalk
 ```
 ## next lets edit file ```(characterai_server)``` shall we?
 
