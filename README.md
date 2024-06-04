@@ -63,7 +63,7 @@ token = "jaja czarnucha" # we have this
 channel_id = "2137" # same 🔼
 username_to_ignore = 'bigwhiteguy' # your @ bot
 check_for_prefix = True # check that selected prefix will be checked
-prefix = "." # if user start msg like .hello! program will send this to c.ai but if user type hello he will be ignored
+prefix = "." # example: if user send msg like .hello! program will send this to c.ai but if user type hello he will be ignored
 ```
 RUN VIA runner.bat
 
