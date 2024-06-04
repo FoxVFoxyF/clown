@@ -1,4 +1,4 @@
-# clown 0.3
+# clown 0.4
   clown allows connect character ai to discord via alt account(NOT bot acc) program is simple and my first.
   code isnt obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to [gpt4/3.5](https://chatgpt.com)
 > [!IMPORTANT]
