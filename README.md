@@ -14,7 +14,7 @@ pip install websocket-client requests colorama
 ```py
 npm install express body-parser node_characterai chalk
 ```
-## next lets edit file ```(config.json)``` shall we?
+## next lets edit ```(config.json)``` shall we?
 
 ```try to find inside file:```
 dc_token ```AND``` cai_token
