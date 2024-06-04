@@ -33,6 +33,7 @@ let chat;
     const characterId = "YOUR CHAR ID";
     chat = await characterAI.createOrContinueChat(characterId);
     console.log("Chat initialized with character:", characterId);
+    console.log("keep this in background +");
   } catch (error) {
     console.error("Error during authentication:", error);
   }
