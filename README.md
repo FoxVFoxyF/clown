@@ -43,7 +43,7 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 
 > [!NOTE]
-> before running bat (runner.bat) lets configurate last things
+> before start lets configurate last things
 ```js
     "channel_id": "CHANNEL_ID"
     "characterId": "YOUR_CHARACTER_ID"
@@ -51,7 +51,7 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
     "check_for_prefix": true ⬅️check that selected prefix will be checked
     "prefix": ".", ⬅️example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
     
-    "username_to_ignore": "big_sigma32" ⬅️your @ bot
+    "username_to_ignore": "big_sigma32" ⬅️your @ bot MUST BEEEE
     "print_user_messages": false, ⬅️bool
     "print_ai_messages": true, ⬅️bool
     "dc_token": "YOUR_TOKEN_HERE",
