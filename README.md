@@ -14,10 +14,7 @@ pip install websocket-client requests colorama
 ```py
 npm install express body-parser node_characterai chalk
 ```
-## next lets edit ```(config.json)``` shall we?
-
-```try to find inside file:```
-dc_token ```AND``` cai_token ```AND``` channel_id ```AND``` characterId
+## next lets edit ```(config.json)``` shall we? ```soo open this xD```
 
 ***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
