@@ -16,10 +16,10 @@ npm install express body-parser node_characterai chalk
 ```
 ## next lets edit file ```(characterai_server)``` shall we?
 
-```try to find inside file```
+```try to find inside file:```
 authenticateWithToken("YOUR TOKEN HERE") ```AND``` characterId = "YOUR CHAR ID"
 
-***here are tutorial how to get token***
+***here are tutorial how to get your token***
 - go to ➡️ https://old.character.ai
 - ctrl + shift + i
 - and js copy a token like me
@@ -34,7 +34,7 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 ## now lets edit last file ```clown_0.2``` 
 
-**frist make a blow job and jk** ```try to find(it will be high)``` 
+**frist make a blow job and jk** ```try to find ⏬(it will be high)``` 
 
 token = "YOUR TOKEN HERE" ```AND```
 channel_id = "CHANNEL ID"
