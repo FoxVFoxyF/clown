@@ -16,7 +16,7 @@ npm install express body-parser node_characterai chalk
 ```
 ## next lets edit ```(config.json)``` shall we? ```soo open this xD```
 
-***to get dc_token***
+### ***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
 - next go where you can type(i prefer dm)
@@ -30,10 +30,11 @@ npm install express body-parser node_characterai chalk
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/70f31549-ddf2-4e05-98d1-679b28c0fed7)
 **remember to login on old.character to see token!!**
 
-**to get channel id** just press right on channel and click ```copy channel id```
+### **to get channel id** just press right on channel and click ```copy channel id```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/d6632b7b-afe0-4e54-91a9-63a2f652e2e2)
 ```channel id is place where ai will be```
-***to get characterId***
+
+### ***to get characterId***
 - go to chat with ai and copy marked text
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/7677769f-59f1-4a80-9be5-13cc717486c3)
 char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
