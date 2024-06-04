@@ -1,0 +1,13 @@
+{
+    "channel_id": "CHANNEL_ID",
+    "characterId": "YOUR_CHARACTER_ID",
+
+    "check_for_prefix": true,
+    "prefix": ".",
+    
+    "username_to_ignore": "...",
+    "print_user_messages": false,
+    "print_ai_messages": true,
+    "dc_token": "YOUR_TOKEN_HERE",
+    "cai_token": "YOUR_TOKEN_HERE"
+}
