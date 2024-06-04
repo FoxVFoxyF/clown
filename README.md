@@ -9,7 +9,7 @@
 
 after installation paste to cmd 2 things..
 ```py
-pip install websocket-client requests
+pip install websocket-client requests colorama
 ```
 ```py
 npm install express body-parser node_characterai
