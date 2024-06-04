@@ -42,10 +42,8 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
 
 
 
-## read note before running bat file
-
 > [!NOTE]
-> here are info how to configurate (clown file)
+> before running bat (runner.bat) lets configurate last things
 ```js
     "channel_id": "CHANNEL_ID"
     "characterId": "YOUR_CHARACTER_ID"
