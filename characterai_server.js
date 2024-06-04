@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const CharacterAI = require('node_characterai');
 const characterAI = new CharacterAI();
 const chalk = import('chalk');
+const fs = require('fs').promises;
 
 const app = express();
 const port = 3000;
@@ -26,20 +27,24 @@ app.get('/send-message', (req, res) => {
 });
 
 let chat;
+let config;
 
 (async () => {
   const chalk = await import('chalk');
   try {
-    await characterAI.authenticateWithToken("YOUR TOKEN HERE");
+    const data = await fs.readFile('config.json', 'utf8');
+    config = JSON.parse(data);
+    await characterAI.authenticateWithToken(config.cai_token);
     console.log(chalk.default.blueBright('Authenticated with CharacterAI'));
-    const characterId = "YOUR CHAR ID";
-    chat = await characterAI.createOrContinueChat(characterId);
-    console.log(chalk.default.greenBright("Chat initialized with character:", characterId));
+
+    chat = await characterAI.createOrContinueChat(config.characterId);
+    console.log(chalk.default.greenBright("Chat initialized with character:", config.characterId));
     console.log(chalk.default.magentaBright("keep this in background +"));
   } catch (error) {
-    console.error(chalk.default.redBright("Error during authentication:", error));
+    console.error(chalk.default.redBright("Error during authentication or reading config file:", error));
   }
 })();
+
 
 app.post('/send-message', async (req, res) => {
   try {
