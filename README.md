@@ -23,7 +23,7 @@ npm install express body-parser node_characterai chalk
 - press ctrl + shift + i and type something 
 - from messages/authorization take your token(idk how to explain, soo here are img)```yup my alt got muted cuz ai was ✨retarded✨ ```
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649d395b-1cff-4857-94b3-6e4d8e2c1e7c)
-***to get cai_token***
+### ***to get cai_token***
 - go to ➡️ https://old.character.ai
 - ctrl + shift + i
 - and js copy a token like me
