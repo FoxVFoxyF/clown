@@ -1,4 +1,4 @@
-# clown 0.4
+# clown 0.41
   clown allows connect character ai to discord via alt account(NOT bot acc) program is simple and my first.
   code isnt obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to [gpt4/3.5](https://chatgpt.com)
 > [!IMPORTANT]
@@ -14,7 +14,7 @@ pip install websocket-client requests colorama
 ```py
 npm install express body-parser node_characterai chalk
 ```
-## next lets edit ```(config.json)``` shall we? ```soo open this xD```
+## next lets edit ```(config.json)``` shall we?
 
 ### ***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
