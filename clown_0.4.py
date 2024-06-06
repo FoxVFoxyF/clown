@@ -79,7 +79,7 @@ while True:
                 if username != username_to_ignore:
                     user_message = f"{content}"
 
-                    if print_user_messages and content.startswith(prefix):
+                    if print_user_messages and content.startswith(prefix) or print_user_messages and not check_for_prefix:
                         print(Fore.BLUE + Style.BRIGHT + "user" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + user_message + Style.RESET_ALL)
 
                     if not check_for_prefix or user_message.startswith(prefix):
