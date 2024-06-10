@@ -16,6 +16,7 @@ check_for_prefix = config['check_for_prefix']
 prefix = config['prefix']
 print_user_messages = config['print_user_messages']
 print_ai_messages = config['print_ai_messages']
+recognize_users = config['recognize_users']
 
 
 def send_json_request(ws, request):
@@ -77,29 +78,33 @@ while True:
                 username = event['d']['author']['username']
                 content = event['d']['content']
                 if username != username_to_ignore:
-                    user_message = f"{content}"
+                    if recognize_users:
+                        user_message = f"{username}: {content}"
+                    elif not recognize_users:
+                        user_message = content
 
-                    if print_user_messages and content.startswith(prefix) or print_user_messages and not check_for_prefix:
-                        print(Fore.BLUE + Style.BRIGHT + "user" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + user_message + Style.RESET_ALL)
-
-                    if not check_for_prefix or user_message.startswith(prefix):
-                        user_message = remove_prefix(user_message, prefix)
-                        
-                        url = "http://127.0.0.1:3000/send-message"
-                        headers = {"Content-Type": "application/json"}
-                        data = {"message": user_message}
-
-                        response = requests.post(url, headers=headers, json=data)
-                        if response.status_code == 200:
-                            assistant_message = response.json()['response']
-                            if print_ai_messages:
-                                print(Fore.BLUE +  Style.BRIGHT + "AI" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + assistant_message + Style.RESET_ALL)
-
-                            payload = {'content': assistant_message}
-                            header = {'authorization': token}
-                            r = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', data=payload, headers=header)
+                    if print_user_messages:
+                        if check_for_prefix and content.startswith(prefix):
+                            user_message = remove_prefix(user_message, prefix)
+                            print(Fore.BLUE + Style.BRIGHT + "user" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + user_message + Style.RESET_ALL)
+                        elif check_for_prefix and not content.startswith(prefix):
+                            continue
                         else:
-                            print(Fore.RED + "Failed to get response from CharacterAI server" + Style.RESET_ALL)
+                            print(Fore.BLUE + Style.BRIGHT + "user" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + user_message + Style.RESET_ALL)
+ 
+                    url = "http://127.0.0.1:3000/send-message"
+                    headers = {"Content-Type": "application/json"}
+                    data = {"message": user_message}
+                    response = requests.post(url, headers=headers, json=data)
+                    if response.status_code == 200:
+                        assistant_message = response.json()['response']
+                        if print_ai_messages:
+                            print(Fore.BLUE +  Style.BRIGHT + "AI" + Style.RESET_ALL, Fore.YELLOW + Style.BRIGHT + assistant_message + Style.RESET_ALL)
+                        payload = {'content': assistant_message}
+                        header = {'authorization': token}
+                        r = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', data=payload, headers=header)
+                    else:
+                        print(Fore.RED + "Failed to get response from CharacterAI server" + Style.RESET_ALL)
     except KeyError:
         pass
     except Exception:
