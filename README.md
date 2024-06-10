@@ -1,4 +1,4 @@
-# clown 0.41
+# clown 0.45
   clown allows connect character ai to discord via alt account(NOT bot acc) program is simple and my first.
   code isnt obfuscated or complicated allat, so if you are afraid of a virus, check this or send it to [gpt4/3.5](https://chatgpt.com)
 > [!IMPORTANT]
@@ -52,10 +52,12 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
     "prefix": ".", ⬅️example: if user send msg like .hello! program will send this to c.ai but if user send hello he will be ignored
     
     "username_to_ignore": "big_sigma32" ⬅️your @ bot
+    "recognize_users": true ⬅️ if true bot will see your msg like mydcname: hello!
     "print_user_messages": false, ⬅️bool
     "print_ai_messages": true, ⬅️bool
     "dc_token": "YOUR_TOKEN_HERE",
     "cai_token": "YOUR_TOKEN_HERE"
+    
 ```
 RUN VIA runner.bat
 
