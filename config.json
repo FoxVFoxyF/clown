@@ -6,9 +6,9 @@
     "prefix": ".",
     
     "username_to_ignore": "...",
+    "recognize_users": "false",
     "print_user_messages": false,
     "print_ai_messages": true,
     "dc_token": "YOUR_TOKEN_HERE",
     "cai_token": "YOUR_TOKEN_HERE"
-    "recognize_users": "false"
 }
