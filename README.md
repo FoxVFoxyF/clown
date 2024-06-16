@@ -16,6 +16,9 @@ npm install express body-parser node_characterai chalk
 ```
 ## next lets edit ```(config.json)``` shall we?
 
+```tip: if you need help, my dc is foxvfoxy[en,pl]```
+
+
 ### ***to get dc_token***
 - open discord in web(dont close always keep open...sorry) and enable dev mode just like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
@@ -60,8 +63,5 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
     
 ```
 RUN VIA runner.bat
-
-```if you need any help, my dc is foxvfoxy[en,pl]```
-
 
 
