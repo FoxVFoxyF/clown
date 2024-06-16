@@ -60,7 +60,8 @@ char=```jOmCBZ2nzYYMTfNyCsZgLnzDe9jmNSzCepGKtmeV0ms```&source=recent-chats
     
 ```
 RUN VIA runner.bat
-```is you need any help, my dc is foxvfoxy[en,pl]```
+
+```if you need any help, my dc is foxvfoxy[en,pl]```
 
 
 
