@@ -20,7 +20,7 @@ npm install express body-parser node_characterai chalk
 
 
 ### ***to get dc_token***
-- open discord in web(dont close always keep open...sorry) and enable dev mode just like me
+- open discord in web(after all you can close it) and enable dev mode just like me
 ![image](https://github.com/FoxVFoxyF/clown/assets/121633580/649743bc-514c-4fa7-b665-bb074b224d84)
 - next go where you can type(i prefer dm)
 - press ctrl + shift + i and type something 
