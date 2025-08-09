@@ -1,4 +1,4 @@
-# it could be patched but i know how to fix it, please make issue request for update and i'll rewrite code 
+# its patched but i know how to fix it, please make issue request for update and i'll rewrite code 
 
 # clown 0.45
   clown allows connect character ai to discord via alt account(NOT bot acc) program is simple and my first.
